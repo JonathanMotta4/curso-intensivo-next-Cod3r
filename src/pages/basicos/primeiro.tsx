@@ -1,4 +1,4 @@
-import Primeiro from '@/components/basicos/Primeiro'
+import Primeiro from "@/components/basicos/Primeiro";
 
 export default function primeiro() {
   return (
@@ -8,5 +8,5 @@ export default function primeiro() {
       <Primeiro />
       <Primeiro />
     </div>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-const { hostname } = require('os')
+const { hostname } = require("os");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -6,12 +6,12 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'source.unsplash.com',
-        port: '',
+        protocol: "https",
+        hostname: "source.unsplash.com",
+        port: "",
       },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
