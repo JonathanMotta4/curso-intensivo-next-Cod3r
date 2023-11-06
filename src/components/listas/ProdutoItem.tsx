@@ -1,7 +1,7 @@
-import Produto  from "@/model/Produto";
+import Produto from "@/model/Produto";
 import Image from "next/image";
 import { IconShoppingCart } from "@tabler/icons-react";
-import Moeda from '@/utils/Moeda';
+import Moeda from "@/utils/Moeda";
 interface ProdutoItemProps {
   produto: Produto;
   comprar: (produto: Produto) => void;
@@ -20,7 +20,9 @@ function ProdutoItem(props: ProdutoItemProps) {
       <div className="flex flex-col p-3 gap-3">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-black">{produto.nome}</div>
-          <div className="text-green-500 font-bold">{Moeda.formatar(produto.preco)}</div>
+          <div className="text-green-500 font-bold">
+            {Moeda.formatar(produto.preco)}
+          </div>
         </div>
         <div className="text-gray-500">{produto.descricao}</div>
         <div>

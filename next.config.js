@@ -2,15 +2,9 @@ const { hostname } = require("os");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "source.unsplash.com",
-        port: "",
-      },
-    ],
+    domains: ["source.unsplash.com", "wallpaperaccess.com"],
   },
 };
 

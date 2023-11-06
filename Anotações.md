@@ -11,3 +11,9 @@
 - [x] [React] comunicação entre componentes (indireta)
 - [x] [React] renderização condicional
 - [x] [React] renderização de listas
+
+- [x] [React] Componente de layout com Grid
+- [x] [React] Hooks personalizados
+- [x] [React] Chamar api https://swapi.dev/
+
+- [] [React] Hooks... useState,useEffect e useCallback
