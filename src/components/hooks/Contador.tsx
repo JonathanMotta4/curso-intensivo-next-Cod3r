@@ -5,12 +5,11 @@ export default function Contador() {
   const [delta, setDelta] = useState(0);
   const [mult, setMult] = useState(0);
 
-  const calcularValorMult5 = useCallback((valor:number) => {
+  const calcularValorMult5 = useCallback((valor: number) => {
     return valor * 5;
   }, []);
   useEffect(() => {
-    console.log("executando use effect");
-
+    
     const mult20 = calcularValorMult5(valor);
     setMult(mult20);
   }, [valor, calcularValorMult5]);
@@ -42,7 +41,7 @@ export default function Contador() {
         type="number"
         value={delta}
         onChange={(e) => setDelta(+e.target.value)}
-        className="bg-zinc-900 py-2 px-3 rounded-md"
+        className="px-3 py-2 rounded-md bg-zinc-900"
       />
     </div>
   );

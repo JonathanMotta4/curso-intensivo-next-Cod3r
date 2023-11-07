@@ -14,6 +14,6 @@
 
 - [x] [React] Componente de layout com Grid
 - [x] [React] Hooks personalizados
-- [x] [React] Chamar api https://swapi.dev/
+- [x] [React] Chamar api <https://swapi.dev/>
 
-- [] [React] Hooks... useState,useEffect e useCallback
+- [x] [React] Hooks... useState,useEffect e useCallback
