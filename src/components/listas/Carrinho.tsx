@@ -10,7 +10,7 @@ export default function Carrinho(props: CarrinhoProps) {
     return soma + item.quantidade * item.produto.preco;
   }, 0);
   return (
-    <div className="flex flex-col  border border-white rounded-md overflow-hidden w-4/5">
+    <div className="flex flex-col  border border-white rounded-md overflow-hidden w-4/5 ">
       <div className="bg-zinc-800 flex justify-between items-center text-3xl p-3">
         <span>Carrinho</span>
         <span>{Moeda.formatar(total)}</span>

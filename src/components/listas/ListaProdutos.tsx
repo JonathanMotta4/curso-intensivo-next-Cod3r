@@ -7,7 +7,7 @@ interface ListaProdutosProps {
 }
 export default function ListaProdutos(props: ListaProdutosProps) {
   return (
-    <div className="flex flex-wrap gap-5">
+    <div className="flex justify-center flex-wrap gap-5">
       {props.produtos.map((produto) => {
         return (
           <ProdutoItem
